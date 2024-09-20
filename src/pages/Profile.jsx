@@ -3,7 +3,7 @@ import React from 'react'
 import Img from '../assets/Image/akpic.jpg'
 const Profile = () => {
   return (
-    <div className='h-full w-full bg-black flex  flex-col items-center'>
+    <div className='h-full w-full  bg-teal-950 flex  flex-col items-center'>
       <div className='h-[80%] w-[80%] flex justify-center items-center m-10'>
             <div className='h-full w-full flex flex-col justify-center ml-6'>
                 <div className=' text-white w-[60%] h-[10%] my-5 font-extralight text-5xl'>Hello! I'am Akshay</div>
@@ -14,10 +14,10 @@ const Profile = () => {
             </div>
       </div>
         <div className='h-screen w-[40%]  flex justify-around items-center'>
-          <div><Mail className='text-white h-10 w-10' /></div>
-          <div><Linkedin className='text-white h-10 w-10'/></div>
-          <div><Github className='text-white h-10 w-10'/></div>
-          <div><Phone className='text-white h-10 w-10'/></div>
+          <div><a href="mailto:jsakshaykarthik@gmail.com"><Mail className='text-white h-10 w-10' /></a></div>
+          <div><a href="https://www.linkedin.com/in/akshay-karthik-s-041a26253/?originalSubdomain=in" target="_blank"><Linkedin className='text-white h-10 w-10' /></a></div>
+          <div><a href="https://github.com/Akshaykarthik22" target="_blank"><Github className='text-white h-10 w-10'/></a></div>
+          <div><a href="tel:+917010160414"><Phone className='text-white h-10 w-10'/></a></div>
         </div>
     </div>
   )
