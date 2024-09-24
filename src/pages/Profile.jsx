@@ -3,10 +3,10 @@ import React from 'react'
 import Img from '../assets/Image/akpic.jpg'
 const Profile = () => {
   return (
-    <div className='h-full w-full  bg-teal-950 flex  flex-col items-center'>
+    <div className='h-full w-full  bg-black flex  flex-col items-center'>
       <div className='h-[80%] w-[80%] flex justify-center items-center m-10'>
             <div className='h-full w-full flex flex-col justify-center ml-6'>
-                <div className=' text-white w-[60%] h-[10%] my-5 font-extralight text-5xl'>Hello! I'am Akshay</div>
+                <div className=' text-white w-[60%] h-[10%] my-5 font-extralight text-5xl animate-waving-hand'>Hello! I'am Akshay</div>
                 <div className=' w-[80%]  text-white h-[20%] my-5 font-thin text-3xl'>I am a Computer Science Engineering student with a passion for AI/ML and web development. I've worked on diverse projects, including AI-based YouTube summarizers and Telegram bots. Currently interning at Real AI Dynamics.</div>
             </div>
             <div className='h-full w-full flex justify-center items-center'>
