@@ -1,17 +1,19 @@
 import { Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail, Phone } from 'lucide-react'
 import React from 'react'
-import Img from '../assets/Image/akpic.jpg'
+import Img from '../assets/Image/ad.jpg'
 const Profile = () => {
   return (
-    <div className='h-full w-full  bg-black flex  flex-col items-center'>
+    <div className='h-full w-full bg-black flex  flex-col items-center'>
       <div className='h-[80%] w-[80%] flex justify-center items-center m-10'>
             <div className='h-full w-full flex flex-col justify-center ml-6'>
-                <div className=' text-white w-[60%] h-[10%] my-5 font-extralight text-5xl animate-waving-hand'>Hello! I'am Akshay</div>
-                <div className=' w-[80%]  text-white h-[20%] my-5 font-thin text-3xl'>I am a Computer Science Engineering student with a passion for AI/ML and web development. I've worked on diverse projects, including AI-based YouTube summarizers and Telegram bots. Currently interning at Real AI Dynamics.</div>
+                <div className=' text-white w-[60%] h-[10%] my-5 font-extralight text-5xl span'>Hi! I'm <span className='text-yellow-400'>Akshay</span> </div>
+                {/* <div className=' text-teal-800 w-[60%] h-[10%] my-5 font-extralight text-5xl '>Akshay</div> */}
+                <div className=' w-[80%]  text-white h-[20%] my-5 font-thin text-3xl'>I am a Computer Science Engineering student with a passion for AI/ML, web development and Python Language. I've worked on diverse projects, including AI-based YouTube summarizers and Telegram bots. Passionate on GenAI. Currently interning at Real AI Dynamics USA.</div>
             </div>
             <div className='h-full w-full flex justify-center items-center'>
-                <div className='h-[40%] w-[40%]  rounded-full'><img src={Img} className='rounded-full border-2 '></img></div>
+                <div className='h-[40%] w-[60%]  rounded-full'><img src={Img} className='rounded-full'></img></div>
             </div>
+            
       </div>
         <div className='h-screen w-[40%]  flex justify-around items-center'>
           <div><a href="mailto:jsakshaykarthik@gmail.com"><Mail className='text-white h-10 w-10' /></a></div>

@@ -35,14 +35,14 @@ const Navbar = () => {
   const passwordref = useRef(null)
   return (
     <>
-    <div className='h-full w-full  text-black  bg-gray-200 flex  justify-center items-center'>
+    <div className='h-full w-full  text-yellow-500  bg-gradient-to-r from-zinc-900 to-zinc-900  flex   hover:text-yellow-400  justify-center items-center'>
       <div className='h-[90%] w-[90%] flex justify-between'>
-          <div className='flex items-center text-4xl overflow-hidden transform hover:scale-105 transition-transform duration-300'>Akshay Karthik Srinivas</div>
+          <div className='flex items-center text-4xl overflow-hidden font-extralight transform hover:scale-105 transition-transform duration-300'>Akshay Karthik Srinivas</div>
           <div className=' flex items-center justify-end z-50'>
-            <Link className='ml-4 text-xl font-bold hover:animate-pulse ' to="/">Profile</Link>
-            <Link className='ml-4 text-xl font-bold hover:animate-pulse' to="/project">Projects</Link>
-            <Link className='ml-4 text-xl font-bold hover:animate-pulse ' to="/contact">Contact</Link>
-            <CircleUser className='ml-4 h-10 w-10 text-xl font-bold hover:animate-pulse ' onClick={()=>setvisible(!visible)} />
+            <Link className='ml-4 text-xl font-mono hover:animate-pulse active:text-white ' to="/">Profile</Link>
+            <Link className='ml-4 text-xl font-mono hover:animate-pulse active:text-white' to="/project">Projects</Link>
+            <Link className='ml-4 text-xl font-mono hover:animate-pulse active:text-white ' to="/contact">Contact</Link>
+            {/* <CircleUser className='ml-4 h-10 w-10 text-xl font-bold hover:animate-pulse ' onClick={()=>setvisible(!visible)} /> */}
           </div>
       </div>
     </div>

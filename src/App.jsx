@@ -6,7 +6,6 @@ import Profile from './pages/Profile'
 import  Contact  from './pages/Contact'
 import Project from './pages/Project'
 
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -20,5 +19,4 @@ const App = () => {
     </BrowserRouter>
   )
 }
-
 export default App
